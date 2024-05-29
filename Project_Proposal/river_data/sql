@@ -1,0 +1,8 @@
+USE flood_alerts;
+
+ALTER TABLE rivers ADD COLUMN length_km FLOAT;
+ALTER TABLE rivers ADD COLUMN regions TEXT;
+ALTER TABLE rivers ADD COLUMN estates TEXT;
+ALTER TABLE rivers ADD COLUMN pollution_content TEXT;
+ALTER TABLE rivers ADD COLUMN flooding_potential TEXT;
+

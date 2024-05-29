@@ -1,0 +1,91 @@
+<!-- templates/regions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood-Prone Regions in Nairobi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Flood-Prone Regions in Nairobi</h1>
+    <table>
+        <tr>
+            <th>Ward Name</th>
+            <th>Constituency</th>
+            <th>Estates Affected</th>
+            <th>Last Updated</th>
+        </tr>
+        {% for region in regions %}
+        <tr>
+            <td>{{ region.ward_name }}</td>
+            <td>{{ region.constituency }}</td>
+            <td>{{ region.estates }}</td>
+            <td>{{ region.last_updated }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+<!-- templates/regions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood-Prone Regions in Nairobi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Flood-Prone Regions in Nairobi</h1>
+    <table>
+        <tr>
+            <th>Ward Name</th>
+            <th>Constituency</th>
+            <th>Estates Affected</th>
+            <th>Last Updated</th>
+        </tr>
+        {% for region in regions %}
+        <tr>
+            <td>{{ region.ward_name }}</td>
+            <td>{{ region.constituency }}</td>
+            <td>{{ region.estates }}</td>
+            <td>{{ region.last_updated }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+<!-- templates/regions.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood-Prone Regions in Nairobi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Flood-Prone Regions in Nairobi</h1>
+    <table>
+        <tr>
+            <th>Ward Name</th>
+            <th>Constituency</th>
+            <th>Estates Affected</th>
+            <th>Last Updated</th>
+        </tr>
+        {% for region in regions %}
+        <tr>
+            <td>{{ region.ward_name }}</td>
+            <td>{{ region.constituency }}</td>
+            <td>{{ region.estates }}</td>
+            <td>{{ region.last_updated }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+

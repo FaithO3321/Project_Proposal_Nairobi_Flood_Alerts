@@ -1,0 +1,47 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Alerts in Nairobi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Flood Alerts in Nairobi</h1>
+    <table>
+        <tr>
+            <th>River Name</th>
+            <th>Length (km)</th>
+            <th>Regions</th>
+            <th>Estates</th>
+            <th>Water Level</th>
+            <th>Pollution Content</th>
+            <th>Flooding Potential</th>
+            <th>Last Updated</th>
+            <th>Update</th>
+        </tr>
+        {% for river in rivers %}
+        <tr>
+            <td>{{ river.name }}</td>
+            <td>{{ river.length_km }}</td>
+            <td>{{ river.regions }}</td>
+            <td>{{ river.estates }}</td>
+            <td>{{ river.water_level }}</td>
+            <td>{{ river.pollution_content }}</td>
+            <td>{{ river.flooding_potential }}</td>
+            <td>{{ river.last_updated }}</td>
+            <td>
+                <form method="POST" action="{{ url_for('update') }}">
+                    <input type="hidden" name="id" value="{{ river.id }}">
+                    <input type="text" name="water_level" placeholder="New Level">
+                    <button type="submit">Update</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+

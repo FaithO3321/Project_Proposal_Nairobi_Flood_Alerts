@@ -1,0 +1,7 @@
+INSERT INTO rivers (name, length_km, regions, estates, water_level, pollution_content, flooding_potential)
+VALUES 
+('Nairobi River', 60, 'Ngong Hills, Kibera, Industrial Area, Eastlands', 'Kibera, Dandora, Mukuru kwa Njenga, South B, South C', 'Highly variable, prone to flooding during rainy seasons', 'High levels of industrial and domestic waste, raw sewage', 'High risk of flooding in informal settlements along the banks during heavy rains'),
+('Ngong River', 40, 'Ngong Hills, Karen, Langata', 'Karen, Langata, Rongai', 'Moderate to low, depends on rainfall', 'Moderate levels of agricultural and domestic waste', 'Moderate risk in low-lying areas during heavy rains'),
+('Motoine River', 30, 'Ngong Hills, Kibra, Dagoretti', 'Kibera, Dagoretti, Kawangware', 'Highly variable, prone to flooding', 'High levels of domestic and industrial waste', 'High risk in informal settlements along the banks'),
+('Mathare River', 25, 'Mathare Valley, Eastlands', 'Mathare, Huruma, Kariobangi', 'Highly variable, prone to flooding', 'Very high levels of domestic and industrial waste', 'Extreme risk in informal settlements during heavy rains');
+

@@ -1,0 +1,12 @@
+CREATE DATABASE flood_alerts;
+
+USE flood_alerts;
+
+CREATE TABLE rivers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    water_level FLOAT NOT NULL,
+    region VARCHAR(255) NOT NULL,
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+

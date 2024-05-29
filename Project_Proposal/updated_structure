@@ -1,0 +1,25 @@
+flood_alerts/
+├── app.py
+├── config.py
+├── models.py
+├── insert_data.py
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── rivers.html
+│   └── regions.html
+└── static/
+    └── styles.css
+flood_alerts/
+├── app.py
+├── config.py
+├── models.py
+├── insert_data.py
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   ├── rivers.html
+│   └── regions.html
+└── static/
+    └── styles.css
+

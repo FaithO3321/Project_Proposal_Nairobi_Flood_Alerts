@@ -1,0 +1,17 @@
+INSERT INTO regions (ward_name, constituency, estates)
+VALUES 
+('Mukuru Kwa Njenga Ward', 'Embakasi South Constituency', 'Mukuru Kwa Njenga slums, Sinai, Viwandani'),
+('Laini Saba', 'Kibra Constituency', 'Kibera slums (especially Gatwekera, Kianda, and Laini Saba villages), Lindi, Mashimoni'),
+('Lindi', 'Kibra Constituency', 'Kibera slums (especially Gatwekera, Kianda, and Laini Saba villages), Lindi, Mashimoni'),
+('Makina', 'Kibra Constituency', 'Kibera slums (especially Gatwekera, Kianda, and Laini Saba villages), Lindi, Mashimoni'),
+('Mutu-ini', 'Dagoretti South Constituency', 'Kawangware, Riruta Satelite'),
+('Riruta', 'Dagoretti South Constituency', 'Kawangware, Riruta Satelite'),
+('Kariobangi North', 'Embakasi North Constituency', 'Kariobangi North, Kariobangi South, Korogocho slums'),
+('Kariobangi South', 'Embakasi North Constituency', 'Kariobangi North, Kariobangi South, Korogocho slums'),
+('Mabatini', 'Mathare Constituency', 'Mathare slums (especially Mathare North and Mathare 4A)'),
+('Hospital', 'Mathare Constituency', 'Mathare slums (especially Mathare North and Mathare 4A)'),
+('Parklands/Highridge', 'Westlands Constituency', 'Parts of Westlands, Parklands'),
+('Eastleigh North', 'Kamukunji Constituency', 'Parts of Eastleigh'),
+('Eastleigh South', 'Kamukunji Constituency', 'Parts of Eastleigh'),
+('Nairobi West', 'Langata Constituency', 'Parts of South C and Nyayo Highrise');
+
